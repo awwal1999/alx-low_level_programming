@@ -6,7 +6,8 @@ include "main.h"
  */
 void print_alphabet_x10(void)
 {
-	int i, max = 1;
+	int i;
+       	int max = 1;
 	
 	while (max <= 10)
 	{
@@ -19,6 +20,6 @@ void print_alphabet_x10(void)
 		}
 												_putchar('\n');
 												max++;
-											}
+	}
 }
 
